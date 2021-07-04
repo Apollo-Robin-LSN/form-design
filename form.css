@@ -1,0 +1,101 @@
+body{
+     font-family: "poppins",sans-serif;
+     font-size: 16px;
+     line-height: 28px;
+     color: #333;
+     font-weight: 400;
+}
+.pt-100{
+     padding-top: 100px;
+}
+.pb-100{
+     padding-bottom: 100px;
+}
+/* Breadcumb CSS */
+.breadcumb-area{
+     margin-top: 50px;
+     background-color: #000000;
+     padding: 60px 0;
+}
+.breadcumb-area h2{
+     margin-bottom: 0;
+     text-transform: capitalize;
+     color: rgb(255,251,21);
+     font-size: 60px;
+     letter-spacing: 5px;
+}
+.breadcumb-area h4{
+     color: #fff;
+     font-weight: bolder;
+     opacity: .4;
+     letter-spacing: 8px;
+     margin-bottom: 30px;
+}
+.breadcumb-area ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     margin-top: 7px;
+     color: #fff;
+}
+.breadcumb-area ul li{
+     margin: 0 5px;
+     color: #fff;
+     text-transform: capitalize;
+}
+/* Contact CSS */
+.contact{
+     text-align: center;
+     margin-bottom: 60px;
+
+}
+.contact i{
+     background-color: #000;
+     color: #fff;
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 20px;
+     border-radius: 50%;
+}
+.contact h4{
+     text-transform: capitalize;
+     font-weight: 600;
+     margin-top: 15px;
+     font-size: 22px;
+}
+.contact h4 span{
+     display: block;
+     font-size: 16px;
+     font-weight: 400;
+     margin-top: 8px;
+}
+.contact input,
+.contact textarea{
+     width: 100%;
+     border: 1px solid #ddd;
+     padding: 5px 20px;
+     margin-bottom: 10px;
+}
+.contact input[type="submit"]:hover{
+     background-color: rgb(0,0,0);
+     color: #fff;
+     transition: .5s;
+}
+.contact input[type="submit"]{
+     background-color: #000000;
+     border: 0;
+     color: #fff;
+     padding: 10px;
+     font-weight: 600;
+     letter-spacing: 4px;
+}
+.contact select{
+     width: 49.5%;
+     border: 1px solid #ddd;
+     padding: 5px 20px;
+     margin-bottom: 10px;
+     padding: 10px;
+}
